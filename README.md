@@ -37,7 +37,7 @@ Our goal is to utilize machine learning models to predict breast cancer diagnosi
 
 Our code initiates with data preprocessing steps, standardizing numeric features and transforming categorical features into binary indicators using the `model1_par` and `model2_par` functions. After synthesizing data to balance the data and not get influenced by benign cases, the data is prepared for further analysis.
 
-![Data Preprocessing](/Breast%20cancer%202/Final%20BC/image2.png)
+![Data Preprocessing](https://github.com/ACM40960/project-parinithakiran/blob/main/image1.png)
 Figure 1:Balance Dataset 
 
 ### 3. Model Training and Evaluation
@@ -55,14 +55,14 @@ For both diagnosis and survival prediction, optimal hyperparameters are determin
 
 To aid comparison, F1 scores among various models (Random Forest, SVM, Logistic Regression, and Decision Tree) are visualized through a side-by-side bar plot.
 
-![Model Comparison](/Breast%20cancer%202/Final%20BC/image2.png)
+![Model Comparison](https://github.com/ACM40960/project-parinithakiran/blob/main/image2.png)
 Figure 2: F1 score comparison for all the models 
 
 ### 5. Final Model Tuning and Prediction
 
 Following hyperparameter identification, final models are trained and tested using these parameters. Predictions are then generated on test data, accompanied by actual vs. predicted counts and a confusion matrix for model assessment.
 
-![Final Model Tuning and Prediction](/Breast%20cancer%202/Final%20BC/image3.png)
+![Final Model Tuning and Prediction](https://github.com/ACM40960/project-parinithakiran/blob/main/image1.png)
 Figure 3: Model metric for Diagnosis after tuning
   
 ### 6. Prediction Sample
