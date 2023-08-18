@@ -77,7 +77,7 @@ Figure 4: Model metric for Diagnosis after tuning
 ### 6. Prediction Sample
 
 Our code provides diagnosis and survival predictions (`pred1` and `pred2`). Diagnosis prediction prompts further analysis or surgery recommendations, while survival prediction estimates "Alive" or "Dead" status post-surgery.
-![Prediction Sample](https://github.com/ACM40960/project-parinithakiran/blob/main/image5.png)
+![Prediction Sample](https://github.com/ACM40960/project-parinithakiran/blob/main/image5.jpg)
 Figure 5: Sample prediction based on the the provided input data
 
 ## 8. Results
