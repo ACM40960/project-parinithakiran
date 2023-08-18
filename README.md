@@ -44,10 +44,12 @@ Our goal is to utilize machine learning models to predict breast cancer diagnosi
 Overall, our code initiates with data preprocessing steps, standardizing numeric features. Then we synthesize the data to balance the data and not get influenced by Benign cases, and the data is prepared for further analysis.
 
 ![Data Preprocessing](https://github.com/ACM40960/project-parinithakiran/blob/main/image1.png)
-Figure 1:Balance Dataset 
+
+Figure 1: Balanced Dataset 
 
 ![Data Preprocessing](https://github.com/ACM40960/project-parinithakiran/blob/main/image4.png)
-Figure 4: Types of Surgeries Performed on Patients
+
+Figure 2: Types of Surgeries Performed on Patients
 
 ### 3. Model Training and Evaluation
 
@@ -65,19 +67,22 @@ For both diagnosis and survival prediction, optimal hyperparameters are determin
 To aid comparison, F1 scores among various models (Random Forest, SVM, Logistic Regression, and Decision Tree) are visualized through a side-by-side bar plot.
 
 ![Model Comparison](https://github.com/ACM40960/project-parinithakiran/blob/main/image2.png)
-Figure 2: F1 score comparison for all the models 
+
+Figure 3: F1 score comparison for all the models 
 
 ### 5. Final Model Tuning and Prediction
 
 Following hyperparameter identification, final models are trained and tested using these parameters. Predictions are then generated on test data, accompanied by actual vs. predicted counts and a confusion matrix for model assessment.
 
 ![Final Model Tuning and Prediction](https://github.com/ACM40960/project-parinithakiran/blob/main/image3.png)
+
 Figure 4: Model metric for Diagnosis after tuning
   
 ### 6. Prediction Sample
 
 Our code provides diagnosis and survival predictions (`pred1` and `pred2`). Diagnosis prediction prompts further analysis or surgery recommendations, while survival prediction estimates "Alive" or "Dead" status post-surgery.
 ![Prediction Sample](https://github.com/ACM40960/project-parinithakiran/blob/main/image5.jpg)
+
 Figure 5: Sample prediction based on the the provided input data
 
 ## 8. Results
